@@ -77,30 +77,30 @@
 			<h2>遊戲內容</h2>
 			<div class="game e">
 				<div>
-					<h3>SKYBLOCK</h3>
-					<p>Skyblock is a gamemode where you start on a floating island with minimal resources. Compete with others or join them and jump to the top of the leaderboards! Difficult challenges are set for you through your sky adventure, complete them for rewards! It takes perseverance, dedication, and effort to get to the top!</p>
+					<h3>宅楓大廳</h3>
+					<p>這裡是每個玩家剛登入時的地方<br>為了各位的帳戶安全, 於是啟用了註冊系統<br>*如果忘記密碼了, 可以找Lime#9223 尋求幫助</p>
 				</div>
-				<img alt="MyServer SkyBlock Server" class="gimg a" src="img/skyblock.png">
+				<img alt="宅楓大廳" class="gimg a" src="img/Lobby.png">
 			</div>
 
 			<hr>
 
 			<div class="game f">
 				<div>
-					<h3>FACTIONS</h3>
-					<p>Factions is a popular team-based, pvp orientated gamemode where you claim land, build a base with your friends, and raid other factions. We have several awesome features such as custom enchantments and a handy shop GUI. Compete with other factions and strive to become the top faction, winning a free store coupon, today!</p>
+					<h3>宅楓空島</h3>
+					<p>如果你有時間, 那麼可以來這裡<br>想要成為伺服器中的島王<br>那得要看看你的時間充不充足了</p>
 				</div>
-				<img alt="MyServer Factions Server" class="gimg b" src="img/factions.png">
+				<img alt="個人空島" class="gimg b" src="img/Skyblock.png">
 			</div>
 
 			<hr>
 
 			<div class="game g">
 				<div>
-					<h3>KITPVP</h3>
-					<p>KitPvP is a competitive, fast-paced gamemode packed with players! Chose your kit and join the race to the top of the leaderboard. Explore our custom map and test your skills on parkour in secret rooms. Whether you are an archer, gladiator or tactician there is a kit for you. Join the fight today on MyServer!</p>
+					<h3>宅楓生存</h3>
+					<p>休閒向的生存伺服, 在這裡<br>想賺錢的話, 必須先要有個職業才行<br>另外, 野外有特殊魔物可以討伐<br>想要一次性獲得大量金錢, 也許討伐魔物是個好選擇</p>
 				</div>
-				<img alt="MyServer KitPvP Server" class="gimg c" src="img/kitpvp.png">
+				<img alt="休閒生存" class="gimg c" src="img/Survive.png">
 			</div>
 
 			<hr>
@@ -110,25 +110,25 @@
 				<h2>管理人員</h2>
 				<div class="staff-team">
 					<div>
-						<h3>LimeOuO</h3>
+						<h3>Lime#9223<br>(LimeOuO)</h3>
 						<div class="owner">伺服主</div>
 						<img alt="MyServer Staff Member" src="img/LimeOuO.png">
 					</div>
 
 					<div>
-						<h3>AisakaTaiga_</h3>
+						<h3>逢坂大河的口罩#1436<br>(AisakaTaiga_)</h3>
 						<div class="admin">管理員</div>
 						<img alt="MyServer Staff Member" src="img/AisakaTaiga_.png">
 					</div>
 
 					<div>
-						<h3>lifeng_</h3>
+						<h3>狸風#2165<br>(lifeng_)</h3>
 						<div class="admin">管理員</div>
 						<img alt="MyServer Staff Member" src="img/lifeng_.png">
 					</div>
 
 					<div>
-						<h3>Naivety_Europe</h3>
+						<h3>MoMo#7783<br>(Naivety_Europe)</h3>
 						<div class="admin">管理員</div>
 						<img alt="MyServer Staff Member" src="img/Naivety_Europe.png">
 					</div>
@@ -137,15 +137,31 @@
 		</div>
 		<div id="announcement">
 			<div class="an-img">
-				<h2>NEWS & ANNOUNCEMENTS</h2>
+				<h2>歷史消息</h2>
 				<p class="an-t">
-					<b>We just released MyServer 2.0!</b>
-					<br><br>
-					And it went extremely well. We couldn't be more proud to run MyServer. We hit over 800 players, a new record for the server, and the staff worked in overdrive to catch hackers, doing an amazing job. In fact, just on that Saturday, 36 hackers were permanently banned from our network.
-					<br><br>
-					New maps, new staff members, new plugins; the server has been reinvented. With this new update, SkyBlock especially has a new (fully custom) PvP map which can hold about 500 players. As well as that, we added...
-					<br><br>
-					<a href="#" class="btn">更多...</a>
+				2020/3/30
+				<style>
+                #more {display: none;}
+                </style>
+                <p>伺服器官網正式營運<span id="dots">...</span><span id="more"> <br><br>這裡只是個小小伺服器而已<br><br>希望大家可以多多包容<br><br></span></p>
+                <a class="btn" onclick="myFunction()" id="myBtn">查看更多</a>
+					<script>
+                    function myFunction() {
+                      var dots = document.getElementById("dots");
+                      var moreText = document.getElementById("more");
+                      var btnText = document.getElementById("myBtn");
+
+                      if (dots.style.display === "none") {
+                      dots.style.display = "inline";
+                      btnText.innerHTML = "查看更多"; 
+                      moreText.style.display = "none";
+                      } else {
+                      dots.style.display = "none";
+                      btnText.innerHTML = "關閉"; 
+                      moreText.style.display = "inline";
+                      }
+                    }
+                    </script>
 				</p>
 			</div>
 		</div>
